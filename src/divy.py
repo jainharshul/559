@@ -7,16 +7,16 @@ if __name__ == "__main__":
     inf = open(infn, "r")
     header = inf.readline()
 
-    splitxt = [[], [], [], []]
+    names = ["andrew", "daniel", "hershey", "curry"]
+    splitxt = [[]] * len(names)
     dex = 0
     for line in inf:
         splitxt[dex].append(line)
         dex = (dex + 1) % len(splitxt)
 
 
-    names = ["andrew", "daniel", "hershey", "curry"]
 
-    for d in range(0,4):
+    for d in range(0,len(names):
         outf = open(outdir + names[d] + "_" + infn, "w+")
         outf.write(header)
         for txt in splitxt[d]:
