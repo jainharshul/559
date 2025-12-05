@@ -1,0 +1,7 @@
+    446 curry_hlaA*02:01_test.csv
+   1807 curry_hlaHLA-A*02:01_vdjdb_positives.csv
+    447 daniel_hlaA*02:01_test.csv
+   1808 daniel_hlaHLA-A*02:01_vdjdb_positives.csv
+    446 hershey_hlaA*02:01_test.csv
+   1807 hershey_hlaHLA-A*02:01_vdjdb_positives.csv
+   6761 total
